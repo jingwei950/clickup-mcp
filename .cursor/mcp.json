@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "context7-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@upstash/context7-mcp",
+        "--key",
+        "e97261ed-8615-4497-aa53-d62a69a5a289"
+      ]
+    },
+    "clickup-mcp": {
+      "command": "node",
+      "args": ["/Users/jingwei/Desktop/side-project/clickup-mcp/dist/index.js"],
+      "cwd": "/Users/jingwei/Desktop/side-project/clickup-mcp",
+      "env": {
+        "CLICKUP_API_KEY": "pk_89410972_7U4VT65FE3UAPENQCL26OLITTZBHPMCP"
+      }
+    }
+  }
+}
