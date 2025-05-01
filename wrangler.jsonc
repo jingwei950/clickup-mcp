@@ -1,0 +1,5 @@
+{
+  "name": "clickup-mcp-serverz",
+  "compatibility_date": "2025-05-02",
+  "main": "src/index.ts"
+}
